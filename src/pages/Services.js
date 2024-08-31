@@ -8,11 +8,7 @@ import {Link} from 'react-router-dom'
 function Services() {
   return (
     <div className='relative w-full bg-cover bg-center bg-no-repeat  bg-blend-multiply mb-5'>
-        {/* <Helmet>
-            <title>Domiciliary Care</title>
-            <meta name="description" content="See our detailed domiciliary care services"/>
-            <link rel="canonical" href="/domiciliary" />
-        </Helmet> */}
+       
         <section >
         <section class=" bg-cover bg-center bg-no-repeat bg-team_work bg-gray-600  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-24 lg:py-34">
