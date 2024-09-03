@@ -29,7 +29,7 @@ function Footer() {
             <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-justify'>
                 
-                We offer 24 hour services. Our team is prepared to work according to personal schedule. We also make at-home care easy for loved ones.<br/>
+                We offer 24 hour services. Anytime you request our services, we show up before you know it. Our team is prepared to work according to personal schedule.<br/>
 
                 </p>
 
@@ -46,8 +46,7 @@ function Footer() {
             </h5></center>
             <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-justify'>
-                We have a team of dedicated, passionate and experienced caregivers who provide great care. We work with families to find the most suitable caregiver
-                for everyone who uses our services.<br/><br/>
+                We have a team of dedicated, passionate and experienced caregivers who provide reliable care.<br/><br/>
                 </p>
 
                 
@@ -63,8 +62,7 @@ function Footer() {
             </h5></center>
             <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-justify'>
-                    Our staff members are well trained and equipped to ensure we deliver the best services
-                    that align with care standards.
+                Our staff members are well trained and equipped to ensure we deliver the best services in line with care standards.
                 </p>
 
                 
@@ -98,7 +96,7 @@ function Footer() {
                 <p  className='text-lime-400 text-lg font-bold md:px-8 px-4'>
                     Services<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
-                             <li><Link to='/services'><u>Domiciliary Care</u></Link></li>
+                             <li><Link to='/services'><u>Personal Care</u></Link></li>
                             <li><Link to='/services'><u>Supported living</u></Link></li>
                             <li><Link to='/services'><u>Respite Care</u></Link></li>
                              

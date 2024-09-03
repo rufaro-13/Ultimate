@@ -1,6 +1,8 @@
 import React from 'react'
 /* import { Helmet } from 'react-helmet-async'; */
 import {TbTargetArrow,TbStarFilled} from 'react-icons/tb'
+import { IoMdStar } from "react-icons/io";
+
 import {HiLightBulb} from 'react-icons/hi'
 import { IconContext } from "react-icons";
 
@@ -216,6 +218,93 @@ function About() {
                     </div> 
 
                 </div>
+
+                <div class="px-4 mx-auto max-w-screen-xl text-center pt-6 py-4 lg:py-12 ">
+                    <h1 class="mt-8 pt-7 mb-4 text-3xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-5xl">
+                    Our Experience
+                    </h1>
+
+                    
+                </div>
+
+                <div class="md:flex pt-4 pb-4 bg-sky-50">
+
+                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center   mx-2 ">
+                        <div class='flex ml-4'>
+                        <h5 class=" mb-4 text-xl font-bold tracking-tight leading-none text-center text-titleblue md:text-2xl lg:text-3xl pt-2">
+                        Munhamo Gumbo Mberi, Director <br/><br/>
+                        </h5>
+                        {(() => {
+                                const arr = [];
+                                for (let i = 0; i < 5; i++) {
+                                    arr.push(
+                                       <IconContext.Provider value={{ color: '#059212', size: '20px', padding:'1px ' }}>
+                            <div class="  sm:items-center sm:justify-center    mt-4">
+                              <IoMdStar class="sm:items-center sm:justify-center  "/>
+                            </div>
+                          </IconContext.Provider>
+                                    );
+                                }
+                                return arr;
+                            })()}
+                            
+                       </div>
+
+                        <p class="px-4 mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
+
+                            ***********************************************************************************<br/>
+                            As a mental health practitioner Lewis has extensive experience working with both adults and 
+                            young people in a variety of settings. Lewis has specialized in one to one work as a CAMHS 
+                            practitioner and working with adults in community teams. Alongside his experience as a mental 
+                            health practitioner Lewis is also a registered social worker and has varied experience working within local authorities.
+
+
+                        <br/><br/>
+
+                        </p>
+
+                    </div>
+
+
+                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center   mx-2 ">
+                        <div class='flex ml-4'>
+                        <h5 class=" mb-4 text-xl font-bold tracking-tight leading-none text-center text-titleblue md:text-2xl lg:text-3xl pt-2">
+                        Prince Armah, Operations Manager <br/><br/>
+                        </h5>
+
+                                            {(() => {
+                                const arr = [];
+                                for (let i = 0; i < 5; i++) {
+                                    arr.push(
+                                       <IconContext.Provider value={{ color: '#059212', size: '20px', padding:'1px ' }}>
+                            <div class="  sm:items-center sm:justify-center    mt-4">
+                              <IoMdStar class="sm:items-center sm:justify-center  "/>
+                            </div>
+                          </IconContext.Provider>
+                                    );
+                                }
+                                return arr;
+                            })()}
+                            
+                                
+                                
+                          
+                        
+                       </div>
+
+                        <p class="px-4 mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
+
+                            ***********************************************************************************<br/>
+                            Dominic holds a BA Hons in Criminology and has a wealth of experience working across a 
+                            variety of services delivering support for vulnerable adults and young people with mental 
+                            health needs, and learning difficulties. Dominic has a varied background in setting up a 
+                            number of provisions delivering supported living services for a variety of service users.
+                        <br/><br/>
+
+                        </p>
+
+                    </div>
+                    </div>
 
             </div>
       </section> 

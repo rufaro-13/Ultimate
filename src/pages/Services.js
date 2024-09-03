@@ -195,18 +195,14 @@ function Services() {
                                     </h5>
                                     <p className="font-normal text-sm md:text-base  dark:text-gray-400 pt-4">
                                         <p className='text-justify'>
-                                        We help primary caregivers and families get some relief by providing temporary care services to their loved ones. 
-                                        Allowing them time to recharge whilst ensuring that the individual receiving care is looked after by trained professionals 
-                                        in a safe environment.<br/><br/>
+                                            We help primary caregivers and families get some relief by
+                                            providing families with a break in caring role and giving their loved
+                                            ones a break from their families. Thus, allowing them time to
+                                            recharge whilst ensuring that the individual receiving care is being
+                                            supported by trained professionals in a safe environment.<br/><br/>
                                          
 
-                                        <span className=' font-bold'>We strive to:</span>
-    <br/>
-                                        <ul class="list-disc ml-6">
-                                            <li>Promote the mental health and wellbeing of our carers and the individual being cared for.</li>
-                                            <li>Prevent burnouts and provide the opportunity for a break to family members or carers.</li>
-                                            <li>Offer a person centred care, placing our service users at the centre of our services.</li>
-                                        </ul>
+                                        
                                     </p> <br/><br/>
                                     </p>
                                 </div>
@@ -223,30 +219,23 @@ function Services() {
                                  </div>  */}  
                                     <h5 className="md:text-2xl text-lg font-bold tracking-tight text-titleblue dark:text-white pt-2">
                                             <p>
-                                            Supported Living Care
+                                            Personal Care 
                                             </p>
                                     </h5>
                                     
 
-                                    <p className="font-normal text-sm md:text-base  dark:text-gray-400 pt-4">
-                                        <p className='text-justify'>
-                                        Our Supported Living services help people to live independently and manage their own tenancies, 
-                                        with support designed around their needs and goals. We aim to promote choice and personalise our 
-                                        services to the needs of our service users. We support adults with mental health needs, dementia and those post hospital discharge. 
-                                        The services we offer include support with:<br/><br/>
+                                    <p className="font-normal text-justify text-sm md:text-base  dark:text-gray-400 pt-4">
+                                        
                                         <ul class="list-disc ml-6">
-                                            <li>Cooking, cleaning and running errands</li>
-                                            <li>Promoting a healthy lifestyle</li>
-                                            <li>Personal care, such as getting washed and dressed and toileting</li>  
-                                            <li>Support with medication.</li>
-                                            <li>Social inclusion</li>
-                                            <li>Light housekeeping</li>  
-                                            <li>Promoting relationships with family and friends.</li>                                    
+                                            <li>Personal care: Assisting with tasks such as bathing, dressing, grooming, and toileting.</li>
+                                            <li>Medication management: Prompting medication from blister pack, monitoring supply.</li>
+                                            <li>Mobility assistance: Helping clients move around safely, using mobility aids if necessary.</li>
+                                            <li>Meal preparation: Preparing nutritious meals according to dietary, religious or cultural requirements and preferences. Offering hot and cold drinks</li>                                
                                         </ul>
 
                                         
                                     </p> 
-                                    </p>
+                                    
                                  </div>
                             </div>
                         </div>
