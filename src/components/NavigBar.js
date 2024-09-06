@@ -28,29 +28,29 @@ export default function NavbarWithCTAButton() {
       fluid
       className={
         colorChange
-            ? "navbar colorChange text-lime-400"
-            : "bg-inherit text-lime-400 h-4"
+            ? "navbar colorChange text-navtitle"
+            : "bg-inherit text-navtitle h-4"
     }
     >
       <Navbar.Brand className='pt-0 pb-0'>
-        <Link to="/"> <img alt="Flowbite React Logo" className=" logo mr-3 md:h-36 sm:h-24" src={logo} style={{width:'100px',height:'100px'}} /></Link>
+        <Link to="/"> <img alt="Flowbite React Logo" className=" logo mr-3 md:h-28 sm:h-24" src={logo} style={{width:'100px',height:'100px'}} /></Link>
         <span className={
         colorChange
             
-            ? "navbar colorChange text-lime-400 self-center whitespace-nowrap  text-2xl font-extrabold"
-            : " md:bg-inherit text-lime-800 self-center whitespace-nowrap  text-2xl font-extrabold"
+            ? "navbar colorChange text-navtitle self-center whitespace-nowrap  text-2xl font-extrabold"
+            : " md:bg-inherit text-darkbluetheme self-center whitespace-nowrap  text-2xl font-extrabold"
     }>
           Ultimate Step Support 
         </span>
       </Navbar.Brand>
-      <div className="flex md:order-2 text-lime-800">
+      <div className="flex md:order-2 text-darkbluetheme">
         
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse className={
         colorChange
-            ? "navbar colorChange text-lime-400"
-            : " bg-inherit text-lime-800"
+            ? "navbar colorChange text-navtitle"
+            : " bg-inherit text-darkbluetheme"
     }>
         <Link
           active
@@ -75,8 +75,8 @@ export default function NavbarWithCTAButton() {
         >
         <Dropdown.Header className={
         colorChange
-            ? "navbar colorChange text-lime-400"
-            : " bg-inherit text-lime-800"
+            ? "navbar colorChange text-navtitle"
+            : " bg-inherit text-darkbluetheme"
     }>
         <ul class="py-2 text-sm  dark:text-gray-400">
         <Link to="/social" className=' font-bold md:text-sm hover:bg-blue-700 hover:text-white'>

@@ -1,13 +1,14 @@
 
 import React from 'react'
 //import { Link } from 'react-router-dom'
-/* import garden from '../images/2151462944.jpg'
-import garden1 from '../images/garden.jpg'
-import learning from '../images/2149060879.jpg'
-import learning2 from '../images/2147664205.jpg'
-import fun from '../images/2151205679.jpg'
-import hike from '../images/42682.jpg'
-import çommunity from '../images/2151346564.jpg' */
+ import garden from '../images/2149871134.jpg'
+ import learning from '../images/2151044425.jpg'
+import garden1 from '../images/pikaso_texttoimage_people-of-different-races-gardening-together (1).jpeg'
+
+import learning2 from '../images/2149155325.jpg'
+import fun from '../images/2149392029.jpg'
+import hike from '../images/2149019293.jpg'
+import çommunity from '../images/2147776961.jpg' 
 function Activities() {
   return (
     <div className='relative w-full bg-cover bg-center bg-no-repeat   bg-blend-multiply mb-5'>
@@ -17,7 +18,7 @@ function Activities() {
             <link rel="canonical" href="/domiciliary" />
         </Helmet> */}
         <section >
-        <section class=" bg-cover bg-center bg-no-repeat bg-activities bg-gray-100  bg-blend-multiply">
+        <section class=" bg-cover bg-center bg-no-repeat  bg-gray-100  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl   py-24 lg:py-40">
                 <h1 class="mb-4 text-2xl font-extrabold  tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-4xl">
                 Activity-Based Care:</h1>
@@ -38,7 +39,7 @@ function Activities() {
 
                                 </p>
                                 <div class=" col-span-1 px-2 pt-1 pb-2">
-                            {/* <img src={çommunity}class=" rounded-lg md:h-60  mr-3" alt="gardening"/> */} 
+                            <img src={çommunity}class=" rounded-lg md:h-72  mr-3" alt="gardening"/> 
                         </div>
                                 
 
@@ -111,11 +112,11 @@ Activities and Community Engagement:
     </h4>
 <div id='others' class="md:flex pt-4 pb-4">
         <div class=" col-span-1 px-2 pt-2">
-            {/* <img src={hike}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> */} 
+            <img src={hike}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
         </div>
 
         <div class=" col-span-1 px-2 pt-2">
-            {/* <img src={fun}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> */} 
+            <img src={fun}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
         </div>
        
 
@@ -168,23 +169,23 @@ activities in the local community such as;<br/><br/>
             <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
 
                 {/* <div class=" mx-auto max-w-screen-xl text-center pt-6  ">
-                    <h3 class=" mb-4 text-2xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
+                    <h3 class=" mb-4 text-2xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-3xl">
                        Our Activities:
                     </h3>
                 </div> 
  */}
                 <div class=" mt-4 ">
 
-                <h4 class=" mt-4 mb-4 text-xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-2xl">
+                <h4 class=" mt-4 mb-4 text-xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-2xl">
                        Gardening:
                     </h4>
                 <div id='gardening' class="md:flex mt-4 pt-8 pb-4">
                         <div class=" col-span-1 px-2 pt-4">
-                            {/* <img src={garden}class=" rounded-lg md:h-96  mr-3" alt="gardening"/>  */}
+                            <img src={garden}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
 
                         <div class=" col-span-1 px-2 pt-2">
-                           {/*  <img src={garden1}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> */} 
+                            <img src={garden1}class=" rounded-lg md:h-96  mr-1" alt="gardening"/> 
                         </div>
                        
 
@@ -228,16 +229,16 @@ activities in the local community such as;<br/><br/>
 
                 <div class=" pt-8 ">
 
-                <h4 class="bg-gradient-to-r from-violet-950 to-fuchsia-950 bg-clip-text text-  mb-4 text-xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-2xl">
+                <h4 class="bg-gradient-to-r from-violet-950 to-fuchsia-950 bg-clip-text text-  mb-4 text-xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-2xl">
                 Social Inclusion and Learning:
                     </h4>
                 <div id='learning' class="md:flex pt-4 pb-4">
                         <div class=" col-span-1 px-2 pt-2">
-                            {/* <img src={learning}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> */} 
+                            <img src={learning}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
 
                         <div class=" col-span-1 px-2 pt-2">
-                            {/* <img src={learning2}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> */} 
+                            <img src={learning2}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
                        
 
@@ -252,7 +253,7 @@ activities in the local community such as;<br/><br/>
                 Our caring professionals are trained to provide personalised care that is tailored to meet the unique needs and preferences of each 
                 individual client. We work closely with clients and their families to ensure that they receive the highest level of care and support.<br/><br/>
 
-                STEP-BY-STEP utilises teaching and learning resources provided by WEA, Adult Learning Within Reach in Leicester. We support individuals to get 
+                ULTIMATE STEP SUPPORT  utilises teaching and learning resources provided by WEA, Adult Learning Within Reach in Leicester. We support individuals to get 
                 membership and attend face to face or online activities depending on their preference. With WEA, our service users can access learning activities 
                 like skills for work, skills for life, English for Speakers of Other Languages (ESOL), Arts and crafts, language and culture, humanities and science.
                 </p>

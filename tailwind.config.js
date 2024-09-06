@@ -27,17 +27,18 @@ module.exports = {
     extend: {
       colors: {
         'navcolour':'#2D9596',
-        'titleblue':'#006769',
+        'titleblue':'#11009E',
         'crystalteal':'#006883',
         'icyteal':'#B5C4C0',
         'herodiv':'#071952',
         /* 'bluetheme':'#E8FFFF', */
         'bluetheme':'white',
-        'darkbluetheme':'#003C43',
+        'darkbluetheme':'#161D6F',
         'red':'#ff0000',
         'greentheme':'#00DFA2',
         'cards':'#FFE5E5',
-        'footer':'#1A5319',
+        'footer':'#001E6C',
+        'navtitle':'#47B5FF',
        'tealtext':'#37B7C3', 
        'yellowfooter':'#FFCD4B',
        'yellowtheme':'#FF4B91',
@@ -45,24 +46,10 @@ module.exports = {
 
       },
 
-      /* backgroundImage: {
-        'hero_pattern':"url('/src/images/52616.jpg')",
-        'team_work':"url('/src/images/2151231479.jpg')",
-        'social':"url('/src/images/senior-women-celebrating-friendship-park.jpg')",
-        'personal':"url('/src/images/adult-male-waiting-recovery-session-start.jpg')",
-        'doctor':"url('/src/images/42682.jpg')",
-        'hands':"url('/src/images/2149019283.jpg')",
-        'close':"url('/src/images/garden.jpg')",
-        'garden':"url('/src/images/2151462944.jpg')",
-        'hands1':"url('/src/images/2147664205.jpg')",
-        'doctor1':"url('/src/images/2151224184.jpg')",
-        'activities':"url('/src/images/70840.jpg')",
-        'hiking':"url('/src/images/4521.jpg')",
-        'cycling':"url('/src/images/2150816067.jpg')",
-        'contacts':"url('/src/images/34665942_5_123dasa1.jpg')",
-        'fishing':"url('/src/images/2147894120.jpg')",
-        'sports':"url('/src/images/2149451025.jpg')",
-      }, */
+       backgroundImage: {
+        'background1':"url('https://68.media.tumblr.com/c40636a5a0d4aa39c335c8db40d2144f/tumblr_omc7z7Xv8N1slhhf0o1_1280.jpg')",
+        'team_work':"url('/src/images/42631.jpg')"
+      },
       
 
 

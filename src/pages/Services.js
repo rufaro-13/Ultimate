@@ -1,19 +1,19 @@
 import React from 'react'
 /* import domiciliary from '../images/doctor-taking-care-senior-woman-home.jpg'
 import domic from "../images/2149031333.jpg" */
-//import paliat from '../images/mediums-hot-smiley-people-indoors.jpg'
-//import respite from '../images/shes-like-daughter-me-portrait-cheerful-young-female-nurse-holding-elderly-patient-wheelchair-as-support-inside-home-during-day_590464-12165.avif'
-import {Link} from 'react-router-dom'
+import paliat from '../images/2150775209.jpg'
+import respite from '../images/2149046132.jpg'
+//import {Link} from 'react-router-dom'
 /* import { Helmet } from 'react-helmet-async' */
 function Services() {
   return (
     <div className='relative w-full bg-cover bg-center bg-no-repeat  bg-blend-multiply mb-5'>
        
         <section >
-        <section class=" bg-cover bg-center bg-no-repeat bg-team_work bg-gray-600  bg-blend-multiply">
+        <section class=" bg-cover bg-center bg-no-repeat bg-team_work bg-gray-400  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl  bg- py-24 lg:py-34">
                 <h1 class="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-icyteal md:text-5xl lg:text-6xl">
-                Services offered by Step-by-Step:</h1>
+                Services offered by Ultimate Step Support :</h1>
                
                 <div class="  md:w-1/2   rounded-lg  text-white   mx-4 ">
                             
@@ -180,7 +180,7 @@ function Services() {
                             <div id='respite' class="  mt-8 pt-4 pb-4">
                                 <div class="md:w-full col-span-1 pt-2">
                             
-                                {/* <img class="rounded-t-lg" src={respite} alt="" /> */}
+                                <img class="rounded-t-lg" src={respite} alt="" />
                                 
                                 </div>
                                 <div class="md:w-full  sm:82 rounded-b-lg  border-1  bg-bluetheme text-darkbluetheme sm:items-center sm:justify-center   px-2 ">
@@ -211,7 +211,7 @@ function Services() {
 
                             <div id='supported' class=" mt-8 pt-4 pb-4">
                                 <div class="md:w-full col-span-1  pt-2">
-                                    {/* <img class="rounded-t-lg" src={domic} alt="" /> */}
+                                    <img class="rounded-t-lg" src={paliat} alt="" />
                                 </div>
                                 <div class="md:w-full  sm:82 rounded-b-lg  border-1  bg-bluetheme text-darkbluetheme sm:items-center sm:justify-center   px-2 ">
                                 {/* <div className=' text-center italic text-xs'>   

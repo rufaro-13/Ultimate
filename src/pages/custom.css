@@ -1,0 +1,62 @@
+*::before,
+*::after {
+	box-sizing: border-box;	
+}
+
+body {
+/* 	font: 14px "Segoe UI", sans-serif; */
+	font-family: Montserrat, sans-serif;
+	padding: 1em;
+	/* background: linear-gradient(85deg,#434343,#262626); */
+}
+
+.card-grid {
+	display: grid;
+    overflow-x: scroll;
+    padding: 5em 1em 1em 3em;
+	grid-template-columns: repeat(20, 1fr);
+	grid-auto-flow: column;
+	width: 100%;
+}
+
+.card {
+	/* background: linear-gradient(85deg,#434343,#262626); */
+	box-shadow: -3.5rem 0rem 3.5rem -1.8rem #000;
+/* 	0rem 0rem 5.5rem -0.8rem */
+	width: 15em;
+	height: 20em;
+	border-radius: 2em;
+	margin-left: -5em;
+	position: relative;
+	transition: transform 300ms ease, margin 300ms ease, box-shadow 300ms ease;
+	border: 0px solid white;
+	
+	background-image: url("https://images.pexels.com/photos/10278125/pexels-photo-10278125.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	background-size: cover;
+
+}
+
+.card:nth-of-type(1) {
+	margin-left: 0em;
+}
+
+
+.card:hover {
+	transform: translatey(-1em) rotate(3deg) scale(1);
+	transform-origin: 100%;
+	margin-right: 6.4em;
+	border: 2px solid white;
+	box-shadow: 0rem 0rem 5.5rem -0.4rem #fff;
+}
+
+.card:hover + .card {
+	box-shadow: -3.5rem 0rem 3.5rem -3.8rem #000;
+}
+
+.card-title {
+	
+}
+
+.card-tags {
+	
+}

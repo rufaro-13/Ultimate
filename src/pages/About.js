@@ -21,7 +21,7 @@ function About() {
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-6 py-4 lg:py-12 ">
                     <h1 class="mt-8 pt-7 mb-4 text-3xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-5xl">
-                       About US
+                       About Ultimate Step Support
                     </h1>
 
                     
@@ -34,7 +34,7 @@ function About() {
                         <h5 class=" mb-4 text-2xl font-bold tracking-tight leading-none text-center text-titleblue md:text-3xl lg:text-4xl pt-2">
                            Our Mission <br/><br/>
                         </h5>
-                        <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'1px ' }}>
+                        <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'1px ' }}>
                             <div class="  sm:items-center sm:justify-center    mb-4">
                               <TbTargetArrow class="sm:items-center sm:justify-center  "/>
                             </div>
@@ -66,7 +66,7 @@ function About() {
                         <h5 class=" mb-4 text-2xl font-bold tracking-tight leading-none text-center text-titleblue md:text-3xl lg:text-4xl pt-2">
                            Our Vision <br/><br/>
                         </h5>
-                        <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'1px ' }}>
+                        <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'1px ' }}>
                             <div class="  sm:items-center sm:justify-center    mb-4">
                               <HiLightBulb class="sm:items-center sm:justify-center  "/>
                             </div>
@@ -104,20 +104,20 @@ function About() {
                            Our Values <br/><br/>
                         </h5>
 
-                        <p className='mt-3 mb-2'><b>Our values define everything that we do. They&#39;re:</b></p>
+                        <p className='mt-3 mb-2 text-darkbluetheme text-lg md:text-2xl'><b>Our values define everything that we do. They&#39;re:</b></p>
 
                         <div class="  grid pb-4 lg:grid-cols-2 lg:gap-x-3 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 px-2 item-stretch ">
                        
                             
                             <div class='flex col-span-1 shadow-xl rounded-lg bg-gray-200'>
-                                <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'2px ' }}>
+                                <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'2px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
                             
 
-                                <p class="pl-4 text-justify font-medium text-darkbluetheme text-sm md:text-lg">
+                                <p class="pl-4 text-justify font-medium text-darkbluetheme text-sm md:text-base">
                                 
                                 <b class="text-titleblue">Independence -</b> We prioritize our service users' independence.
 
@@ -128,13 +128,13 @@ function About() {
                             </div>
 
                             <div class='flex col-span-1 shadow-xl rounded-lg bg-gray-200'>
-                                <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'1px ' }}>
+                                <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-4">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
                             
-                                <p class="px-4 text-justify font-medium text-darkbluetheme text-sm md:text-lg">
+                                <p class="px-4 text-justify font-medium text-darkbluetheme text-sm md:text-base">
                                 
                                 <b class="text-titleblue">Individuality -</b> Each person is supported and taken care of according to their care needs, following their care and support plan.
 
@@ -146,13 +146,13 @@ function About() {
                             </div>
 
                             <div class='flex mt-4 col-span-1 shadow-xl rounded-lg bg-gray-200'>
-                                <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'1px ' }}>
+                                <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
                             
-                                <p class="px-4 mx-2 text-justify font-medium text-darkbluetheme text-sm md:text-lg">
+                                <p class="px-4 mx-2 text-justify font-medium text-darkbluetheme text-sm md:text-base">
                                 
                                 <b class="text-titleblue">Person Centred Care -</b>Ultimate Step Support is flexible and we value service user’s unique needs. 
                                 We work with each individual according to their care and support plan.
@@ -163,13 +163,13 @@ function About() {
                             </div>
 
                             <div class='flex mt-4 col-span-1 shadow-xl rounded-lg bg-gray-200'>
-                                <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'1px ' }}>
+                                <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
                             
-                                <p class="px-4 mx-2 text-justify text-darkbluetheme font-medium text-sm md:text-lg">
+                                <p class="px-4 mx-2 text-justify text-darkbluetheme font-medium text-sm md:text-base">
                                 
                                 <b class="text-titleblue">Choice -</b> At Ultimate Step Support we value everyone's happiness and comfort. Service users are free to choose the services they want with help of 
                                 their family and how they want to be supported.
@@ -180,13 +180,13 @@ function About() {
                             </div>
 
                             <div class='flex mt-4 col-span-1 shadow-xl rounded-lg bg-gray-200'>
-                                <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'1px ' }}>
+                                <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
                             
-                                <p class="px-4 mx-2 text-justify text-darkbluetheme font-medium text-sm md:text-lg">
+                                <p class="px-4 mx-2 text-justify text-darkbluetheme font-medium text-sm md:text-base">
                                 
                                 <b class="text-titleblue">Equality -</b> We respect, embrace, and celebrate everyone&#39;s unique
                                 differences.
@@ -197,13 +197,13 @@ function About() {
                             </div>
 
                             <div class='flex mt-4 col-span-1 shadow-xl rounded-lg bg-gray-200'>
-                                <IconContext.Provider value={{ color: '#059212', size: '50px', padding:'1px ' }}>
+                                <IconContext.Provider value={{ color: '#FBCB0A', size: '50px', padding:'1px ' }}>
                                     <div class="  sm:items-center sm:justify-center    mb-1">
                                     <TbStarFilled class="sm:items-center sm:justify-center  "/>
                                     </div>
                                 </IconContext.Provider>
                             
-                                <p class="px-4 mx-2 text-justify text-darkbluetheme font-medium text-sm md:text-lg">
+                                <p class="px-4 mx-2 text-justify text-darkbluetheme font-medium text-sm md:text-base">
                                 
                                 <b class="text-titleblue">Pride -</b> We are passionate about making a positive difference to
                                 the individuals and community we support.
@@ -238,7 +238,7 @@ function About() {
                                 const arr = [];
                                 for (let i = 0; i < 5; i++) {
                                     arr.push(
-                                       <IconContext.Provider value={{ color: '#059212', size: '20px', padding:'1px ' }}>
+                                       <IconContext.Provider value={{ color: '#FBCB0A', size: '20px', padding:'1px ' }}>
                             <div class="  sm:items-center sm:justify-center    mt-4">
                               <IoMdStar class="sm:items-center sm:justify-center  "/>
                             </div>
@@ -276,7 +276,7 @@ function About() {
                                 const arr = [];
                                 for (let i = 0; i < 5; i++) {
                                     arr.push(
-                                       <IconContext.Provider value={{ color: '#059212', size: '20px', padding:'1px ' }}>
+                                       <IconContext.Provider value={{ color: '#FBCB0A', size: '20px', padding:'1px ' }}>
                             <div class="  sm:items-center sm:justify-center    mt-4">
                               <IoMdStar class="sm:items-center sm:justify-center  "/>
                             </div>
