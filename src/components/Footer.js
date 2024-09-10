@@ -21,7 +21,7 @@ function Footer() {
           <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
             <center><img src={excellent} alt='excellence' style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   
             my-6"/>
-            <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-navtitle pt-2">
+            <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
                 We Are Reliable
                 </p>
@@ -39,7 +39,7 @@ function Footer() {
 
           <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
             <center><img src={amazing} alt='excellence'  style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   my-6"/>
-            <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-navtitle pt-2">
+            <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
                 We Care
                 </p>
@@ -55,7 +55,7 @@ function Footer() {
 
           <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
             <center><img src={equal} alt='excellence' style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   my-6"/>
-            <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-navtitle pt-2">
+            <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
                 We are Professionals
                 </p>
@@ -80,10 +80,10 @@ function Footer() {
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="jjj" class="flex items-center mb-4 sm:mb-0">
                 <img src={logo} class="h-8 md:h-32 ml-2" alt="Srep by step Logo" />
-                <span class="self-center text-navtitle md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-navtitle">  Ultimate Step Support Ltd</span>
+                <span class="self-center text-white md:text-2xl text-1xl font-bold whitespace-nowrap dark:text-white">  Ultimate Step Support Ltd</span>
             </a>
-            <ul class="flex flex-wrap text-lg text-sm  pt-6 text-base font-medium text-navtitle sm:mb-0 dark:text-gray-400">
-                <p className='text-navtitle text-lg font-bold md:px-6 px-4'>
+            <ul class="flex flex-wrap text-lg text-sm  pt-6 text-base font-medium text-white sm:mb-0 dark:text-gray-400">
+                <p className='text-white text-lg font-bold md:px-6 px-4'>
                     About<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
                              <li><Link to='/about'><u>Mission</u></Link></li>
@@ -93,7 +93,7 @@ function Footer() {
                             
                     </ul>
                 </p>
-                <p  className='text-navtitle text-lg font-bold md:px-8 px-4'>
+                <p  className='text-white text-lg font-bold md:px-8 px-4'>
                     Services<br/>
                     <ul class="list-disc ml-6 text-sm font-bold">
                              <li><Link to='/services'><u>Personal Care</u></Link></li>
@@ -104,20 +104,20 @@ function Footer() {
                             </ul>
                 </p>
                 
-                <Link to="/contact" className='text-navtitle text-lg font-bold md:px-8 px-4'>
+                <Link to="/contact" className='text-white text-lg font-bold md:px-8 px-4'>
                     Contact
                 </Link>
             </ul>
         </div>
-        <hr class="my-6 border-navtitle sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr class="my-6 border-white sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between ml-3">
-        <span class="block text-sm text-navtitle sm:text-center dark:text-gray-400 col-span-1">© 2024  
-        <Link to="/" class="hover:underline text-navtitle"> Ultimate Step Support Ltd
+        <span class="block text-sm text-white sm:text-center dark:text-gray-400 col-span-1">© 2024  
+        <Link to="/" class="hover:underline text-white"> Ultimate Step Support Ltd
         </Link>. 
             All Rights Reserved.
         </span>
 
-        <span class="md:mr-3 block text-xs text-navtitle sm:text-center dark:text-gray-400 col-span-1 "> 
+        <span class="md:mr-3 block text-xs text-white sm:text-center dark:text-gray-400 col-span-1 "> 
             <a href="mailto:rufarochiuta@gmail.com" class="hover:underline">
                 Developed by Amani First
             </a><br/>

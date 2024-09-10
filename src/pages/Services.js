@@ -56,7 +56,7 @@ function Services() {
                             Supported living for Adults <br/><br/>
                             </h5>
 
-                            <p class=' font-semibold text-sm md:text-lg px-2'>
+                            <p class=' font-normal text-sm md:text-base px-2'>
                                 Our Supported Living services help people to live independently
                                 and manage their own tenancies, with support designed around
                                 their needs and goals. We aim to promote choice and personalise

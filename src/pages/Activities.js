@@ -1,14 +1,14 @@
 
 import React from 'react'
 //import { Link } from 'react-router-dom'
- import garden from '../images/2149871134.jpg'
+ import garden from '../images/gardening.jpg'
  import learning from '../images/2151044425.jpg'
 import garden1 from '../images/pikaso_texttoimage_people-of-different-races-gardening-together (1).jpeg'
 
 import learning2 from '../images/2149155325.jpg'
-import fun from '../images/2149392029.jpg'
-import hike from '../images/2149019293.jpg'
-import çommunity from '../images/2147776961.jpg' 
+import fun from '../images/volleyball.jpg'
+import hike from '../images/stroll.jpg'
+import community from '../images/gym.jpg' 
 function Activities() {
   return (
     <div className='relative w-full bg-cover bg-center bg-no-repeat   bg-blend-multiply mb-5'>
@@ -39,7 +39,7 @@ function Activities() {
 
                                 </p>
                                 <div class=" col-span-1 px-2 pt-1 pb-2">
-                            <img src={çommunity}class=" rounded-lg md:h-72  mr-3" alt="gardening"/> 
+                            <img src={community}class=" rounded-lg md:h-72  mr-3" alt="gardening"/> 
                         </div>
                                 
 

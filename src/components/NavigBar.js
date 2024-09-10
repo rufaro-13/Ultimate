@@ -32,20 +32,20 @@ export default function NavbarWithCTAButton() {
             : "bg-inherit text-navtitle h-4"
     }
     >
-      <Navbar.Brand className='pt-0 pb-0'>
+      <Navbar.Brand className='pt-0 pb-'>
         <Link to="/"> <img alt="Flowbite React Logo" className=" logo mr-3 md:h-28 sm:h-24" src={logo} style={{width:'100px',height:'100px'}} /></Link>
         <span className={
         colorChange
             
-            ? "navbar colorChange text-navtitle self-center whitespace-nowrap  text-2xl font-extrabold"
-            : " md:bg-inherit text-darkbluetheme self-center whitespace-nowrap  text-2xl font-extrabold"
+            ? "navbar colorChange text-navtitle self-center whitespace-nowrap  text-sm md:text-2xl font-extrabold"
+            : " md:bg-inherit text-darkbluetheme self-center whitespace-nowrap text-sm md:text-2xl font-extrabold"
     }>
           Ultimate Step Support 
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2 text-darkbluetheme">
         
-        <Navbar.Toggle />
+        <Navbar.Toggle className='bg-darkbluetheme' />
       </div>
       <Navbar.Collapse className={
         colorChange

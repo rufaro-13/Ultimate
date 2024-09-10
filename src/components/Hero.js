@@ -28,18 +28,18 @@ const Hero = () => {
      
     {images.map((each, index) => (
          <section>
-          <div className=" rounded-lg  border-1 shadow-2xl mx-auto" key={index} style={{ width: "100%" }}>
-            <img className="brightness-70 object-scale-down rounded-lg"style={{ objectFit: "cover", width: "100%" ,height: "30%",}} alt="Slide " src={each.image} />
+          <div className="   shadow-2xl mx-0" key={index} style={{ width: "100%" }}>
+            <img className="brightness-70 "/* style={{ objectFit: "cover", width: "100%" ,height: "60%",}} */ alt="Slide " src={each.image} />
         </div>
-            <div className=" overlay  mx-auto max-w-screen-xl  sm:py-16  lg:py-40">
-              <h1 class=" text-4xl font-extrabold  tracking-tight leading-none md:text-5xl lg:text-6xl"style={{color: each.colour}}>Ultimate Step Support Ltd,</h1>
-              <p class=" text-2xl font-bold  lg:text-4xl sm:px-16 lg:px-48" style={{color: each.colour}}>
+            <div className=" overlay mx-1 lg:mx-auto max-w-screen-3xl pt-24 ">
+              <h1 class=" text-lg font-extrabold  tracking-tight leading-none md:text-5xl lg:text-6xl"style={{color: each.colour}}>Ultimate Step Support Ltd,</h1>
+              <p class=" text-lg font-bold  lg:text-4xl sm:px-2 lg:px-48" style={{color: each.colour}}>
               {each.text1}.
                   
               </p>
-              <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row text-left pt-5 sm:space-y-0 sm:space-x-4">
+              <div class="flex flex-col space-y-4 rounded-lg border-solid border-navcolour sm:flex-row text-left pt-1 lg:pt-5 sm:space-y-0 sm:space-x-0">
                   
-                <p className=' py-3 px-3 rounded-lg font-bold  border-navcolour text-1xl lg:text-3xl md:w-1/2' style={{color: each.colour}}>
+                <p className=' py-3  px-1 rounded-lg font-bold  border-navcolour text-1xl lg:text-3xl md:w-1/2' style={{color: each.colour}}>
                 {each.text2}
                 </p>      
               </div> 

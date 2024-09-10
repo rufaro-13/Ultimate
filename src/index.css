@@ -1,18 +1,21 @@
 
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
 	display: none;
 	
   }
-
+ */
   .navbar {
     background-color:inherit;
 }
-
-
+html,
+body{
+  margin: 0px;
+  padding: 0px;
+}
  
 .navbar.colorChange {
-    background-color: #001E6C;
+    background-color: white;
 }
   .active {
 	color: red;
@@ -29,6 +32,15 @@ body::-webkit-scrollbar {
 	left: 50%;
 	transform: translate(-50%, -50%);
   }
+
+  @media screen and (max-width:1024px) {
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      }
+    }
   
   code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -37,15 +49,15 @@ body::-webkit-scrollbar {
    
   
 
-  *, *:before, *:after {
+  /* *, *:before, *:after {
 	box-sizing: inherit;
   }
   .cd__main{
 	 background: linear-gradient(to right, #3f2b96, #a8c0ff) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+ /* }
   .text-center {
 	text-align: center;
-  }
+  } */
   
   .color-white {
 	color: #fff;
