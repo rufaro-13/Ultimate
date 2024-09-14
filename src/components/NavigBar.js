@@ -21,7 +21,7 @@ export default function NavbarWithCTAButton() {
     window.addEventListener("scroll", changeNavbarColor);
 
   return (
-<div className=' bg-inherit fixed w-full z-20 top-0 start-0'>
+<div className='py-0 bg-inherit fixed w-full z-20 top-0 start-0'>
  
 
     <Navbar
@@ -29,11 +29,11 @@ export default function NavbarWithCTAButton() {
       className={
         colorChange
             ? "navbar colorChange text-navtitle"
-            : "bg-inherit text-navtitle h-4"
+            : "bg-inherit text-navtitle h-1"
     }
     >
-      <Navbar.Brand className='pt-0 pb-'>
-        <Link to="/"> <img alt="Flowbite React Logo" className=" logo mr-3 md:h-28 sm:h-24" src={logo} style={{width:'100px',height:'100px'}} /></Link>
+      <Navbar.Brand className='pt-0 py-0 pb-0'>
+        <Link to="/"> <img alt="Flowbite React Logo" className=" logo mr-3 md:h-28 sm:h-16" src={logo} style={{width:'100px',height:'50px'}} /></Link>
         <span className={
         colorChange
             
@@ -50,7 +50,7 @@ export default function NavbarWithCTAButton() {
       <Navbar.Collapse className={
         colorChange
             ? "navbar colorChange text-navtitle"
-            : " bg-inherit text-darkbluetheme"
+            : " bg-darkbluetheme md:bg-inherit md:text-darkbluetheme text-white"
     }>
         <Link
           active

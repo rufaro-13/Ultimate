@@ -11,7 +11,7 @@ import hike from '../images/stroll.jpg'
 import community from '../images/gym.jpg' 
 function Activities() {
   return (
-    <div className='relative w-full bg-cover bg-center bg-no-repeat   bg-blend-multiply mb-5'>
+    <div className=' container relative w-full bg-cover bg-center bg-no-repeat   bg-blend-multiply mb-5'>
         {/* <Helmet>
             <title>Domiciliary Care</title>
             <meta name="description" content="See our detailed domiciliary care services"/>
@@ -137,7 +137,7 @@ activities in the local community such as;<br/><br/>
 
 <p class='font-normal bg-gray-100 text-darkbluetheme text-sm md:text-base   sm:items-center sm:justify-center px-2'>
 <br/>
-    <span className='px-1 md:px-5 flex'>
+    <span className='px-1 md:px-5 md:flex'>
         <ul class="list-disc ml-2 md:ml-8 " >
             <li>Gardening projects</li>
             <li>Summer Coach trips</li>
@@ -149,7 +149,7 @@ activities in the local community such as;<br/><br/>
 
         </ul> 
 
-        <ul class="list-disc px-4 ml-8 " >
+        <ul class="list-disc md:px-4 ml-2 md:ml-8 " >
             <li>Sunday visits to car boots collection</li>
             <li>Fishing trips</li>
             <li>Holiday trips to seaside and excursions to museums</li>

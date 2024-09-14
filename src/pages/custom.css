@@ -36,6 +36,26 @@ body {
 
 }
 
+@media screen and (max-width:768px) {
+    .card {
+		/* background: linear-gradient(85deg,#434343,#262626); */
+		box-shadow: -3.5rem 0rem 3.5rem -1.8rem #000;
+	/* 	0rem 0rem 5.5rem -0.8rem */
+		width: 10em;
+		height: 10em;
+		border-radius: 2em;
+		margin-left: -3em;
+		position: relative;
+		transition: transform 300ms ease, margin 300ms ease, box-shadow 300ms ease;
+		border: 0px solid white;
+		
+		background-image: url("https://images.pexels.com/photos/10278125/pexels-photo-10278125.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+		background-size:cover;
+	
+	}
+    }
+  
+
 .card:nth-of-type(1) {
 	margin-left: 0em;
 }

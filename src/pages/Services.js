@@ -98,8 +98,8 @@ function Services() {
 
                     <p class='font-normal bg-bluetheme text-darkbluetheme text-sm md:text-base md:justify-center  sm:items-center sm:justify-center px-auto'>
                 <br/>
-                    <span className='px-1 md:px-5 flex'>
-                        <ul class="list-disc ml-2 md:ml-5 " >
+                    <span className='px-1 md:px-5 md:flex'>
+                        <ul class="list-disc ml-3 md:ml-5 " >
                             <li>24-hour staff presence</li>
                             <li>Nurturing environments accommodating a maximum of
                             three service users to ensure highest level of support</li>
@@ -111,7 +111,7 @@ function Services() {
    
                         </ul> 
 
-                        <ul class="list-disc px-auto ml-8 " >
+                        <ul class="list-disc ml-3 px-auto md:ml-8 " >
                             <li>Positive Behavior support</li>
                             <li>Pathways to own tenancies where appropriate</li>
                             <li>Life skills training</li>

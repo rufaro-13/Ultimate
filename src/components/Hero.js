@@ -28,12 +28,12 @@ const Hero = () => {
      
     {images.map((each, index) => (
          <section>
-          <div className="   shadow-2xl mx-0" key={index} style={{ width: "100%" }}>
-            <img className="brightness-70 "/* style={{ objectFit: "cover", width: "100%" ,height: "60%",}} */ alt="Slide " src={each.image} />
+          <div className=" rounded-lg w-full border-1 shadow-2xl mx-auto" key={index} >
+            <img className="brightness-70 "style={{ objectFit: "cover"}} alt="Slide " src={each.image} />
         </div>
-            <div className=" overlay mx-1 lg:mx-auto max-w-screen-3xl pt-24 ">
+            <div className="object-contain overlay md:px-60 pt-20 backdrop-opacity-10 backdrop-invert bg-white/30   md:pt-60 ">
               <h1 class=" text-lg font-extrabold  tracking-tight leading-none md:text-5xl lg:text-6xl"style={{color: each.colour}}>Ultimate Step Support Ltd,</h1>
-              <p class=" text-lg font-bold  lg:text-4xl sm:px-2 lg:px-48" style={{color: each.colour}}>
+              <p class=" text-lg font-bold  lg:text-4xl sm:px-2 lg:px-10" style={{color: each.colour}}>
               {each.text1}.
                   
               </p>

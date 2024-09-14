@@ -8,7 +8,7 @@ import { IconContext } from "react-icons";
 
 function About() {
   return (
-    <div class="relative w-full bg-cover bg-center bg-no-repeat  bg-sky-50 bg-blend-multiply">
+    <div class=" container relative w-full start-0 bg-cover bg-center bg-no-repeat  bg-sky-50 bg-blend-multiply">
 
     {/*  <Helmet>
             <title>About WaterFields HealthCare Ltd</title>
@@ -17,7 +17,7 @@ function About() {
             <link rel="canonical" href="/about" />
         </Helmet> */}
       <section className='bg-sky-50'>
-            <div class=" px-4 mx-auto max-w-screen-xl mt-4">
+            <div class=" bg-sky-50 px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-6 py-4 lg:py-12 ">
                     <h1 class="mt-8 pt-7 mb-4 text-3xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-5xl">
@@ -29,7 +29,7 @@ function About() {
 
                 <div class="md:flex pt-4 pb-4 bg-sky-50">
 
-                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center   mx-2 ">
+                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center mx-2 ">
                         <div class='flex ml-4'>
                         <h5 class=" mb-4 text-2xl font-bold tracking-tight leading-none text-center text-titleblue md:text-3xl lg:text-4xl pt-2">
                            Our Mission <br/><br/>
