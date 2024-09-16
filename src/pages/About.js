@@ -20,7 +20,7 @@ function About() {
             <div class=" bg-sky-50 px-4 mx-auto max-w-screen-xl t pt-4">
 
                 <div class="px-4 mx-auto max-w-screen-xl text-center pt-6 py-4 lg:py-12 ">
-                    <h1 class="mt-8 pt-7 mb-4 text-3xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-5xl">
+                    <h1 class="mt-8 pt-7 mb-4 text-xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-5xl">
                        About Ultimate Step Support
                     </h1>
 
@@ -41,7 +41,7 @@ function About() {
                           </IconContext.Provider>
                        </div>
 
-                        <p class="px-4 mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
+                        <p class="md:px-4 md:mx-2 px-1 text-justify font-normal text-darkbluetheme text-sm md:text-base">
                         
                             To provide a high standard of care and support to all our service users
                             promoting their wellbeing. Providing person centered care and support to all
@@ -229,7 +229,7 @@ function About() {
 
                 <div class="md:flex pt-4 pb-4 bg-sky-50">
 
-                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center   mx-2 ">
+                    <div class="md:w-1/2 shadow-2xl sm:82 rounded-lg bg-gray-200  sm:items-center sm:justify-center mx-1  md:mx-2 ">
                         <div class='flex ml-4'>
                         <h5 class=" mb-4 text-xl font-bold tracking-tight leading-none text-center text-titleblue md:text-2xl lg:text-3xl pt-2">
                         Munhamo Gumbo Mberi, Director <br/><br/>
@@ -250,9 +250,9 @@ function About() {
                             
                        </div>
 
-                        <p class="px-4 mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
+                        <p class=" px-1 md:px-4 md:mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
 
-                            ***********************************************************************************<br/>
+                            *************************************<br/>
                             As a mental health practitioner Lewis has extensive experience working with both adults and 
                             young people in a variety of settings. Lewis has specialized in one to one work as a CAMHS 
                             practitioner and working with adults in community teams. Alongside his experience as a mental 
@@ -292,9 +292,9 @@ function About() {
                         
                        </div>
 
-                        <p class="px-4 mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
+                        <p class="px-1 md:px-4 md:mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
 
-                            ***********************************************************************************<br/>
+                            *************************************<br/>
                             Dominic holds a BA Hons in Criminology and has a wealth of experience working across a 
                             variety of services delivering support for vulnerable adults and young people with mental 
                             health needs, and learning difficulties. Dominic has a varied background in setting up a 
