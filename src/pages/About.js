@@ -253,10 +253,15 @@ function About() {
                         <p class=" px-1 md:px-4 md:mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
 
                             *************************************<br/>
-                            As a mental health practitioner Lewis has extensive experience working with both adults and 
-                            young people in a variety of settings. Lewis has specialized in one to one work as a CAMHS 
-                            practitioner and working with adults in community teams. Alongside his experience as a mental 
-                            health practitioner Lewis is also a registered social worker and has varied experience working within local authorities.
+                            As a director of Ultimate Step Support Ltd, Munhamo Gumbo brings extensive qualifications and experience to the organization. 
+                            He holds a Master’s Degree in Public Health, a Bachelor of Arts Degree in Social Welfare, and a Level 5 Diploma in Health and 
+                            Social Care Management. With over 16 years in health and social care, Munhamo has successfully managed several care homes and 
+                            served as a CQC registered manager for domiciliary care.
+                            <br/><br/>
+                            Specializing in mental health, learning disabilities, and complex care, he offers a wealth of knowledge and hands-on expertise. 
+                            Munhamo is dedicated to providing person-centered care, ensuring that service users receive tailored support that enhances their 
+                            well-being. His strong advocacy for individual rights and commitment to high standards of care significantly contribute to the 
+                            mission of Ultimate Step Support, positively impacting the community it serves.
 
 
                         <br/><br/>
@@ -295,10 +300,14 @@ function About() {
                         <p class="px-1 md:px-4 md:mx-2 text-justify font-normal text-darkbluetheme text-sm md:text-base">
 
                             *************************************<br/>
-                            Dominic holds a BA Hons in Criminology and has a wealth of experience working across a 
-                            variety of services delivering support for vulnerable adults and young people with mental 
-                            health needs, and learning difficulties. Dominic has a varied background in setting up a 
-                            number of provisions delivering supported living services for a variety of service users.
+                            Prince Armah has been a dedicated Probation Practitioner since 2006, specializing in cognitive accredited 
+                            programs and multi-agency collaboration. Over the years, Prince has developed extensive expertise in assessing 
+                            and managing identified risks, particularly within forensic mental health services. His work focuses on individuals
+                            with learning disabilities and mental health conditions who have interacted with the criminal justice system.
+                            <br/><br/>
+                            Prince holds a strong academic background with a BA in Education Studies, an MSc in Development Administration and 
+                            Planning, a Diploma in Probation Practice, and a BA in Community Justice. His wealth of experience makes him a highly 
+                            skilled professional in navigating complex cases and working effectively within multi-disciplinary teams.
                         <br/><br/>
 
                         </p>

@@ -18,7 +18,7 @@ function Footer() {
 
     <div className='lg:flex grid  lg:grid-cols-3 lg:gap-4 m-auto md:grid-cols-2 md:gap-x-2 grid-col-1 pt-8  '>
 
-          <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
+          <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center pb-3">
             <center><img src={excellent} alt='excellence' style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   
             my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
@@ -26,7 +26,7 @@ function Footer() {
                 We Are Reliable
                 </p>
             </h5></center>
-            <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
+            <p className="font-normal text-sm md:text-base text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-justify'>
                 
                 We offer 24 hour services. Anytime you request our services, we show up before you know it. Our team is prepared to work according to personal schedule.<br/>
@@ -37,14 +37,14 @@ function Footer() {
             </p>
           </div>
 
-          <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
+          <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center pb-3">
             <center><img src={amazing} alt='excellence'  style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
                 We Care
                 </p>
             </h5></center>
-            <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
+            <p className="font-normal text-sm md:text-base text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-justify'>
                 We have a team of dedicated, passionate and experienced caregivers who provide reliable care.<br/><br/>
                 </p>
@@ -53,14 +53,14 @@ function Footer() {
             </p>
           </div>
 
-          <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center">
+          <div className="lg:px-8 px-4 col-span-1 lg:w-full md:w-1/2 sm:items-center sm:justify-center pb-3">
             <center><img src={equal} alt='excellence' style={{  width: "20%" ,height: "75%",}}  class=" sm:items-center sm:justify-center mx-1   my-6"/>
             <h5 className="md:text-2xl text-lg font-bold tracking-tight text-darkbluetheme dark:text-white pt-2">
                 <p class="text-titleblue">
                 We are Professionals
                 </p>
             </h5></center>
-            <p className="font-normal text-sm md:text-lg text-darkbluetheme dark:text-gray-400 pt-4">
+            <p className="font-normal text-sm md:text-base text-darkbluetheme dark:text-gray-400 pt-4">
                 <p class='text-justify'>
                 Our staff members are well trained and equipped to ensure we deliver the best services in line with care standards.
                 </p>
